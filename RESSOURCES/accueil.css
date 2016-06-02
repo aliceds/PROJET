@@ -1,0 +1,95 @@
+/*----FOND-PAGE----*/
+html{
+  /*background-image: url("https://pixabay.com/static/uploads/photo/2015/12/04/20/59/door-1077417_960_720.jpg");*/
+}
+/*-----HEADER-----*/
+header{
+  margin-bottom: 70px;
+  border: solid 1px black;
+  border-radius: 10px;
+  height: 220px;
+  /*background: rgba(112,79,48,0.6);*/
+  font-family: Bookman Old style;
+}
+header img{
+  height: 200px;
+  float: left;
+  padding: 10px;
+}
+
+/*menu*/
+header li{
+  display: inline-block;
+  position:;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+header li a{
+  color: black;
+  text-decoration: none;
+}
+header ul{
+  position: absolute;
+  padding-left: 190px;
+  padding-top: 57px;
+}
+header ul li li{
+  display: none;
+  margin-top: 10px;
+}
+header ul li:hover li{
+  display: block;
+}
+header ul ul{
+  border: none;
+}
+header ul li:hover{
+  color: blue;
+}
+header ul li:hover ul{
+  border: solid 1px black;
+  border-radius: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgba(0,0,0,0.3);
+  width: 150px;
+}
+
+/*barre de recherches*/
+header form{
+  float: right;
+  padding-top: 70px;
+  padding-right: 10px;
+}
+
+/*-----BODY-PROMOTIONS-----*/
+#promotions{
+  border: solid 1px black;
+  border-radius: 7px;
+  height: 550px;
+  /*background: rgba(150,100,67,0.4)*/
+}
+
+#promotions img{
+  height: 200px;
+  margin: 20px;
+}
+#pull{
+  float: right;
+}
+#savons{
+  float: left;
+}
+#confiture{
+  float: left;
+}
+
+/*---BAS DE PAGE-----*/
+footer ul li{
+  display: inline-block;
+  margin: 10px;
+  
+}
