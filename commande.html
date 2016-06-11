@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="RESSOURCES/fond.css"/>
+		<link rel="stylesheet" type="text/css" href="RESSOURCES/commande.css"/>
+		<link rel="icon" type="image/png" href="RESSOURCES/icone.ico" />
+		<link href='https://fonts.googleapis.com/css?family=Lobster|Candal|Passion+One|Bree+Serif|Pacifico|Dancing+Script|Lato:400,900' rel='stylesheet' type='text/css'>
+		<title>Produits artisanaux</title>
+	</head>
+
+	<body>
+	<header>
+		<img id="icone" src="RESSOURCES/icone.png" alt="Produits artisanaux" />
+		<h1 id="header">Produits artisanaux</h1>
+		<p>Produits de qualité faits maison par des producteurs et artisans français.</p>
+		<nav>
+			<ul id="menu">
+				<li><a href="#">Accueil</a></li>
+			  	<li id="vetements"><a href="#">Vêtements</a>
+			  		<ul><li><a href="#">Pulls</a></li>
+			  			<li><a href="#">Chaussettes</a></li>
+			  			<li><a href="#">Echarpes/bonnets/gants</a></li></ul>
+			  	</li>
+			  	<li id="decoration"><a href="#">Décoration</a>
+			  		<ul><li><a href="#">Tapis</a></li>
+			  			<li><a href="#">Meubles</a></li>
+			  			<li><a href="#">Luminaires</a></li></ul>
+			  	</li>
+			  	<li id="alimentaire"><a href="#">Alimentaire</a>
+			  		<ul><li><a href="#">Charcuterie</a></li>
+			  			<li><a href="#">Fromage</a></li>
+			  			<li><a href="#">Confiture</a></li></ul>
+			  	</li>
+			  	<li id="cosmetiques"><a href="#">Cosmétiques</a>
+			  		<ul><li><a href="#">Savons</a></li>
+			  			<li><a href="#">Parfums</a></li>
+			  			<li><a href="#">Bijoux</a></li></ul>
+			  	</li></ul>
+		<form>
+			<input placeholder="Rechercher">
+			<input type="image" src="RESSOURCES/bouton-recherche2.png"  name="ok">
+		</form>
+	</header>
+	<section id="cmd">
+		<section id="panier">
+		<h2>Panier</h2>
+			<section id ="item">
+				<p>Pack de 6 Savons de Marseille</p>
+				<div>
+					<p>Quantité</p>
+					<select id="quantité">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option> 
+						<option>9</option> 
+						<option>10</option> 
+					</select>
+					<p>Prix : 24,99€</p>
+				</div>
+				<img id="savons" src="RESSOURCES/pack-savons.png" alt="Pack-savons"/>
+			</section>
+			<p><strong>Total TTC : 24,99€</strong></p>
+		</section>
+		<section id="commande">
+			<div id="coordonnées">
+				<table>
+					<tr>
+						<td><label for="nom">Nom</td>
+					</tr>
+					<tr>
+						<td><input id="nom"></td>
+					</tr>
+					<tr>
+						<td><label for="prenom">Prenom</td>
+					</tr>
+					<tr>
+						<td><input id="prenom"></td>
+					</tr>
+					<tr>
+						<td><label for="mail">Email</td>
+					</tr>
+					<tr>
+						<td><input id="mail"></td>
+					</tr>
+					<tr>
+						<td><label for="naissance">Date de naissance</td>
+					</tr>
+					<tr>
+						<td><input id="jour" placeholder="JJ"><input id="mois" placeholder="MM"><input id="annee" placeholder="AAAA"></td>
+					</tr>
+					<tr>
+						<td><label for="adresse">Adresse</td>
+					</tr>
+					<tr>
+						<td><input id="adresse"></td>
+					</tr>
+					<tr>
+						<td><input id="adresse"></td>
+					</tr>
+					<tr>
+						<td><label for="ville">Ville</td>
+					</tr>
+					<tr>
+						<td><input id="ville"></td>
+					</tr>
+					<tr>
+						<td><label for="cp">Code Postal</td>
+					</tr>
+					<tr>
+						<td><input id="cp"></td>
+					</tr>
+					<tr>
+						<td><label for="pays">Pays</td>
+					</tr>
+					<tr>
+						<td><select id="pays">
+								<option>Allemagne</option>
+								<option>Belgique</option>
+								<option>Espagne</option>
+								<option>France</option>
+								<option>Italie</option>
+								<option>Pays-Bas</option>
+								<option>Royaume-Unis</option>  
+							</select></td>
+					</tr>
+					<tr>
+						<td><label for="tel">Telephone</td>
+					</tr>
+					<tr>
+						<td><input id="tel"></td>
+					</tr>
+				</table>	
+			</div>
+			<div id="checkbox">
+				<input type="checkbox"> M'informer des nouveaux produits et fonctions, 
+				et des offres spéciales. Vous pouvez vous désabonner à tout moment en vous 
+				rendant sur votre compte.</td>
+			</div>
+			<button><strong>Annuler</strong></button><button><strong>Valider ma commande</strong></button>
+		</section>	
+	</section>
+	<footer>
+		<ul id="footer"><li>Qui sommes nous?</li>
+						<li>Conditions/livraison</li>
+						<li>Contact</li></ul>
+	</footer>
+	</body>
+</html>
