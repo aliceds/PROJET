@@ -21,7 +21,13 @@ table td{
 }
 .description{
 }
-
+table a{
+  text-decoration: none;
+  color: black;
+}
+table a:hover{
+  text-decoration: underline;
+}
 table{
   width: 900px;
   margin-left: auto;

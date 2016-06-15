@@ -36,10 +36,12 @@
 			  		<ul><li><a href="#">Savons</a></li>
 			  			<li><a href="#">Parfums</a></li>
 			  			<li><a href="#">Bijoux</a></li></ul>
-			  	</li></ul>
-		<form>
+			  	</li>
+				<li><a href="commande.html">Panier</a></li></ul>
+		</nav>	
+		<form action="resultats-recherche.html" method="get">
 			<input placeholder="Rechercher">
-			<input type="image" src="RESSOURCES/bouton-recherche2.png"  name="ok">
+			<input type="image" src="RESSOURCES/bouton-recherche2.png" alt=" " name="ok">
 		</form>
 	</header>
 	<section id="cmd">
@@ -71,52 +73,49 @@
 			<div id="coordonnées">
 				<table>
 					<tr>
-						<td><label for="nom">Nom</td>
+						<td><label for="nom">Nom</label></td>
 					</tr>
 					<tr>
 						<td><input id="nom"></td>
 					</tr>
 					<tr>
-						<td><label for="prenom">Prenom</td>
+						<td><label for="prenom">Prenom</label></td>
 					</tr>
 					<tr>
 						<td><input id="prenom"></td>
 					</tr>
 					<tr>
-						<td><label for="mail">Email</td>
+						<td><label for="mail">Email</label></td>
 					</tr>
 					<tr>
 						<td><input id="mail"></td>
 					</tr>
 					<tr>
-						<td><label for="naissance">Date de naissance</td>
+						<td><label>Date de naissance</label></td>
 					</tr>
 					<tr>
 						<td><input id="jour" placeholder="JJ"><input id="mois" placeholder="MM"><input id="annee" placeholder="AAAA"></td>
 					</tr>
 					<tr>
-						<td><label for="adresse">Adresse</td>
+						<td><label for="adresse">Adresse</label></td>
 					</tr>
 					<tr>
 						<td><input id="adresse"></td>
 					</tr>
 					<tr>
-						<td><input id="adresse"></td>
-					</tr>
-					<tr>
-						<td><label for="ville">Ville</td>
+						<td><label for="ville">Ville</label></td>
 					</tr>
 					<tr>
 						<td><input id="ville"></td>
 					</tr>
 					<tr>
-						<td><label for="cp">Code Postal</td>
+						<td><label for="cp">Code Postal</label></td>
 					</tr>
 					<tr>
 						<td><input id="cp"></td>
 					</tr>
 					<tr>
-						<td><label for="pays">Pays</td>
+						<td><label for="pays">Pays</label></td>
 					</tr>
 					<tr>
 						<td><select id="pays">
@@ -130,7 +129,7 @@
 							</select></td>
 					</tr>
 					<tr>
-						<td><label for="tel">Telephone</td>
+						<td><label for="tel">Telephone</label></td>
 					</tr>
 					<tr>
 						<td><input id="tel"></td>
@@ -140,15 +139,15 @@
 			<div id="checkbox">
 				<input type="checkbox"> M'informer des nouveaux produits et fonctions, 
 				et des offres spéciales. Vous pouvez vous désabonner à tout moment en vous 
-				rendant sur votre compte.</td>
+				rendant sur votre compte.
 			</div>
 			<button><strong>Annuler</strong></button><button><strong>Valider ma commande</strong></button>
 		</section>	
 	</section>
 	<footer>
-		<ul id="footer"><li>Qui sommes nous?</li>
-						<li>Conditions/livraison</li>
-						<li>Contact</li></ul>
+		<ul id="footer"><li><a href="contact.html">Qui sommes nous?</a></li>
+						<li><a href="contact.html">Conditions/livraison</a></li>
+						<li><a href="contact.html">Contact</a></li></ul>
 	</footer>
 	</body>
 </html>
